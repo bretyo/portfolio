@@ -1,0 +1,87 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(220,255,255);
+    background: linear-gradient(0deg, rgba(220,255,255,1) 0%,  rgba(255,255,255,1) 100%);
+    height: 100vh;
+}
+
+.int-back{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    height: 105vh;
+    object-fit: cover;
+}
+
+#intro-background{
+    z-index: 1;
+    /* animation: fadein 1s; */
+    animation: grow-in 1s;
+}
+
+
+#intro-background-under{
+    /* mask-image: linear-gradient(to bottom, rgba(0,0,0,.7),rgba(0,0,0,0)); */
+    opacity: .1;
+    z-index: 0;
+    animation: fadein 2s;
+}
+
+.focused{
+    /* opacity: 1; */
+    animation: fadein 1s;
+    
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+
+    }
+    100%{
+        opacity: 1;
+
+    }
+}
+
+.unfocused{
+    /* opacity: 0; */
+    animation: fadeout 1s;
+    /* mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0)); */
+
+}
+@keyframes fadeout {
+    0%{
+        opacity: 1;
+        /* height: 104vh; */
+    }
+    100%{
+        opacity: 0;
+        /* height: 104vh; */
+    }
+}
+
+#profile-pic{
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: black 1px solid;
+    display: block;
+    object-fit:cover;
+    object-position: 0 -23px;
+    z-index: 5;
+    margin-top: 10rem;
+}
+
+h1{
+    position: relative;
+    z-index: 5;
+    color: white
+}
+
+#my-name{
+    font-weight: 700;
+}
