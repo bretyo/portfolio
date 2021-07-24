@@ -26,7 +26,7 @@ function App() {
       <Projects />
       <Resume />
       <Contact />
-      <button onTouch={()=>window.scroll(0,introPos)} onClick={()=>window.scroll(0,introPos)}>SetScrollPos to 0</button>
+      <button onClick={()=>window.scroll(0,introPos)}>SetScrollPos to 0</button>
     </div>
   );
 }

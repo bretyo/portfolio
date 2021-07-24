@@ -2,6 +2,7 @@ body{
     background: rgb(220,255,255);
     /* background-color: ; */
     height: 100%;
+    padding: 1rem;
 }
 button{
   position: relative;
