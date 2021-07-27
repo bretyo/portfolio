@@ -3,6 +3,7 @@ body{
     /* background-color: ; */
     height: 100%;
     padding: 1rem;
+    z-index: -2;
 }
 button{
   position: relative;
