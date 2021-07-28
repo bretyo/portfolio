@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div id='app'>
-      <img className={`int-back`} id='intro-background' src='https://storage.googleapis.com/cool-bucket-wow/background.jpg' />
       <Intro setIntroPos={setIntroPos} introPos={introPos} scrollPos={scrollPos} />
       <About />
       <Skills />
