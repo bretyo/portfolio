@@ -4,7 +4,7 @@ const Intro =(props)=>{
     const {setIntroPos, introPos, scrollPos} = props;
 
     return (
-        <section id='intro' ref={el=>{
+        <section className='container' id='intro' ref={el=>{
             if(!el) return;
             setIntroPos(el.getBoundingClientRect().y)
         }}>
