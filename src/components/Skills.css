@@ -1,3 +1,15 @@
-#skills-container{
-    
+#skills{
+    height: 100%;
+}
+ul{
+    list-style:circle;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50%;
+    flex-direction: column;
+}
+li{
+    font-size: 2rem;
+    margin:0;
+    width:max-content;
 }

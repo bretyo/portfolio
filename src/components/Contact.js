@@ -1,6 +1,6 @@
 const Contact =()=>{
     return(
-        <section id='contact-links'>
+        <section className='card container' id='contact-links'>
             <h2>CONTACT ME</h2>
             <a href='https://www.linkedin.com/in/bret-fernberg/'>LinkedIn</a>
             <a href='https://github.com/bretyo'>Github</a>
