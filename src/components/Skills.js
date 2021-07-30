@@ -7,12 +7,12 @@ const Skills =()=>{
     return(
         <section className='card container' id='skills'>
             <h2>SKILLS</h2>
-            <ul>
+            <div id='skills-container'>
                 {skills.split(', ').map(e=>{
                     // console.log(e)
-                    return <li>{e}</li>
+                    return <h3 key={`${e}`} className='skill'>{e}</h3>
                 })}
-            </ul>
+            </div>
         </section>
     )
 }

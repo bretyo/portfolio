@@ -1,15 +1,21 @@
 #skills{
-    height: 100%;
-}
-ul{
-    list-style:circle;
+    /* height: 100%; */
     display: flex;
-    flex-wrap: wrap;
-    height: 50%;
     flex-direction: column;
+    align-items: center;
+    max-width: 600px;
 }
-li{
+#skills-container{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    list-style:circle;
+    flex-wrap: wrap;
+    /* max-height: 200px; */
+}
+.skill{
     font-size: 2rem;
-    margin:0;
-    width:max-content;
+    margin: 1rem;
+    /* width:max-content; */
 }
