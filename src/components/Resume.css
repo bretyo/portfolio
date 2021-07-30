@@ -1,7 +1,12 @@
-embed{
+/* embed{
+    width: 100%;
+    min-height: 500px;
+} */
+iframe{
     width: 100%;
     /* min-height: 500px; */
 }
+
 #resume-container{
     display:flex;
     flex-direction: column;
@@ -9,11 +14,5 @@ embed{
     justify-content: space-between;
     padding-bottom: 3rem;
     box-sizing: border-box;
-}
-
-@media (max-width: 700px) {
-    #resume-container{
-        /* height: 60vh; */
-    }
-
+    min-height: 500%;
 }
