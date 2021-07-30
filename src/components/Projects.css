@@ -1,0 +1,60 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black 1px solid;
+    padding: 2rem 0 2rem 0;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    width: 95%
+}
+
+.project a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+}
+.project a:hover{
+    color: white;
+    cursor: pointer;
+}
+.project a:active{
+    color: orange
+}
+
+.project:nth-of-type(2n){
+    background: rgb(189, 252, 252);
+  }
+.project:nth-of-type(2n+1){
+background-color: rgb(137, 247, 247);
+}
+
+.project aside{
+    padding-bottom: 1rem;
+}
+
+.project h3{
+    /* padding-bottom: 1rem; */
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.project p{
+    margin-bottom: .5rem;
+    width: 70%;
+}
+
+.project > img{
+    width: 90%;
+}
