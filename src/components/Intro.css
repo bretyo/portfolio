@@ -41,7 +41,7 @@
 .int-back-filt{
     height: 100%;
     min-height: 500px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #profile-wrapper{
@@ -54,12 +54,15 @@
     z-index: 5;
     color: rgb(248, 244, 1);
     font-family: 'Zen Loop', cursive;
-    width: 55vw;
+    width: 65vw;
     /* height: 60% */
     /* padding-top: 10vh; */
     /* min-height: 50%; */
     box-sizing: border-box;
     /* margin: 2rem; */
+    /* background-color: rgba(0, 0, 0, 0.548);
+    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
+box-shadow: 0px 0px 15px 5px #000000; */
 }
 #pic-link{
     display: flex;

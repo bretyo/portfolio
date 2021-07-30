@@ -18,4 +18,13 @@
     font-size: 2rem;
     margin: 1rem;
     /* width:max-content; */
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+.skill:nth-of-type(2n){
+    color: rgb(255, 0, 76);
+}
+.skill:nth-of-type(3n){
+    color:rgb(163, 3, 212);
 }

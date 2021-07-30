@@ -4,7 +4,8 @@
 } */
 iframe{
     width: 100%;
-    /* min-height: 500px; */
+    height: 110vw;
+    max-height: 1100px;
 }
 
 #resume-container{
@@ -14,5 +15,4 @@ iframe{
     justify-content: space-between;
     padding-bottom: 3rem;
     box-sizing: border-box;
-    min-height: 500%;
 }

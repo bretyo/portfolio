@@ -31,6 +31,10 @@ h2{
   /* padding-top: 3rem; */
   padding-bottom: 1rem;
   font-size: 4rem;
+  /* color:rgb(173, 0, 173); */
+}
+h3{
+  font-size: 2rem;
 }
 .container{
   /* height: 100vh; */
