@@ -10,15 +10,8 @@ h2{
     align-self: center;
 }
 
-.contact{
-    padding-left: .5rem;
-    /* font-size: 2rem; */
-    text-align: center;
-    text-overflow: clip;
-    display: inline;
-}
 
-.contact-name{
+.contact{
     /* width: max-content; */
     display: flex;
     flex-direction: column;
@@ -30,4 +23,27 @@ h2{
     padding: 1rem;
     text-overflow: clip;
     box-sizing: border-box;
+    /* text-decoration: underline; */
+}
+.contact-title{
+    text-decoration: underline;
+    font-size: 2.5rem;
+    color: rgb(61, 61, 61);
+    padding-bottom: .5rem;
+}
+.contact-info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: .5rem;
+    /* font-size: 2rem; */
+    text-align: center;
+    text-overflow: clip;
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.contact a:hover{
+    color: rgb(100, 4, 255);
+    /* text-decoration: underline; */
+    cursor: pointer;
 }
