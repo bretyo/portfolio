@@ -26,10 +26,6 @@
     padding: 1rem;
     box-sizing: border-box;
 }
-.abt-pic-txt-container:nth-of-type(2n){
-    background: skyblue;
-    border-top: none;
-}
 
 .abt-txt{
     width: 50vw;
