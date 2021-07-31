@@ -22,10 +22,15 @@
     font-family: 'Courier New', Courier, monospace;
     padding: 0;
 }
-.skill:in-range
 .skill:nth-of-type(2n){
     color: rgb(255, 0, 76);
 }
 .skill:nth-of-type(3n){
     color:rgb(163, 3, 212);
+}
+
+@media (max-width: 700px) {
+    .skill{
+        font-size: 1.5rem;
+    }
 }

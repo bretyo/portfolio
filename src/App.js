@@ -8,25 +8,25 @@ import Resume from './components/Resume';
 import Skills from './components/Skills';
 
 function App() {
-  const [introPos, setIntroPos] = useState([0,0])
-  const [scrollPos, setScrollPos] = useState(0)
+  const [introPos, setIntroPos] = useState(0)
+  // const [scrollPos, setScrollPos] = useState(0)
 
-  useEffect(()=>{
-    document.addEventListener('scroll',e=>{
-      let scrolled = document.scrollingElement.scrollTop;
-      setScrollPos(scrolled)
-    })
-  },[])
+  // useEffect(()=>{
+  //   document.addEventListener('scroll',e=>{
+  //     let scrolled = document.scrollingElement.scrollTop;
+  //     setScrollPos(scrolled)
+  //   })
+  // },[])
 
   return (
     <div id='app'>
-      <Intro setIntroPos={setIntroPos} introPos={introPos} scrollPos={scrollPos} />
+      <Intro setIntroPos={setIntroPos} introPos={introPos} />
       <About />
       <Skills />
       <Projects />
       <Resume />
       <Contact />
-      <button onClick={()=>window.scroll(0,introPos)}>SetScrollPos to 0</button>
+      {/* <button onClick={()=>window.scroll(0,introPos)}>SetScrollPos to 0</button> */}
     </div>
   );
 }
