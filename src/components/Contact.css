@@ -27,6 +27,8 @@ h2{
 }
 .contact-title{
     text-decoration: underline;
+    text-decoration-thickness: .05rem;
+    text-underline-offset: 2px;
     font-size: 2.5rem;
     color: rgb(61, 61, 61);
     padding-bottom: .5rem;
@@ -36,7 +38,7 @@ h2{
     padding-left: .5rem;
     /* font-size: 2rem; */
     text-align: center;
-    text-overflow: clip;
+    word-break: break-all;
     display: inline;
     text-decoration: none;
     color: black;

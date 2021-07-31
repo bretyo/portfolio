@@ -40,11 +40,12 @@ background-color: rgb(137, 247, 247);
 
 .project aside{
     padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .project h3{
     /* padding-bottom: 1rem; */
-    font-size: 2rem;
+    font-size: 3rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     word-wrap: break-word;
@@ -57,4 +58,15 @@ background-color: rgb(137, 247, 247);
 
 .project > img{
     width: 90%;
+}
+
+@media (max-width: 780px) {
+    .project h3{
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 350px) {
+    .project h3{
+        font-size: 2rem;
+    }
 }
