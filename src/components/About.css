@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    /* min-height: 800px; */
     box-sizing: border-box;
 }
 .abt-pic-txt-container{
@@ -32,7 +31,6 @@
     /* height: 100%; */
     display: flex;
     align-items: center;
-    line-height: 2.5rem;
     box-sizing: border-box;
     padding: 1rem;
 }

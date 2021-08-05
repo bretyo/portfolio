@@ -8,19 +8,11 @@ import Resume from './components/Resume';
 import Skills from './components/Skills';
 
 function App() {
-  const [introPos, setIntroPos] = useState(0)
-  // const [scrollPos, setScrollPos] = useState(0)
 
-  // useEffect(()=>{
-  //   document.addEventListener('scroll',e=>{
-  //     let scrolled = document.scrollingElement.scrollTop;
-  //     setScrollPos(scrolled)
-  //   })
-  // },[])
 
   return (
-    <div id='app'>
-      <Intro setIntroPos={setIntroPos} introPos={introPos} />
+    <div id='app' className='loader'>
+      <Intro  />
       <About />
       <Skills />
       <Projects />

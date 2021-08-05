@@ -19,9 +19,8 @@ const Projects =()=>{
                     <h3>Warfareboat</h3>
                     <aside>click here for link</aside>
                 </a>
-                <p></p>
-                <img src='https://storage.googleapis.com/cool-bucket-wow/warfare_boat_screenshot.png' alt='Start Menu screen of a game called Motivational Poser in which three players have joined the game, each having an icon of a robot - Terry, a purple robot; Jomama, a brown robot; and Susan, a yellow robot.'/>
-                <p></p>
+                <p>A site for playing the game Battleship online with a friend or alone against a bot. Includes asyncronous playability, replays of completed games, and 3 difficulty modes for the bot.</p>
+                <img src='https://storage.googleapis.com/cool-bucket-wow/warfare_boat_screenshot.png' alt='Top left: grid with an ocean background and various ships placed on it, three sunk, one on fire, and one untouched. Bottom-left: a box labeled "chat" with the player and the bot responding to each hit. Right side of screen: a grid that resembles a radar with white and red dots resembling hits and misses.'/>
             </section>
         </section>
     )

@@ -1,16 +1,18 @@
-
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import './Intro.css'
-const Intro =(props)=>{
-    const {setIntroPos, introPos, scrollPos} = props;
+const Intro =()=>{
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
 
     return (
-        <section className='container' id='intro' ref={el=>{
-            if(!el) return;
-            setIntroPos(el.getBoundingClientRect().y)
-        }}>
+        <section className='container' id='intro' >
             <img  id='intro-background' src='https://storage.googleapis.com/cool-bucket-wow/background.jpg' />
             <div className='container pic-filter int-back-filt'></div>
-            <div id='profile-wrapper'>
+            <div data-aos='zoom-in-up' id='profile-wrapper'>
                 <img id="profile-pic" src='https://storage.googleapis.com/cool-bucket-wow/profilepic.jpg' alt='Bret Fernberg with a rather dashing haircut, smiling at the sun'/>
                 <p className='intro-p'>Hello, my name is</p>
                 <h1 id='my-name'>Bret Fernberg</h1> 
