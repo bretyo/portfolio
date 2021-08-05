@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import './App.css';
 import About from './components/About';
@@ -8,17 +9,20 @@ import Resume from './components/Resume';
 import Skills from './components/Skills';
 
 function App() {
+  const [imgLoaded, setImgLoaded] = useState(false)
 
+  useEffect(()=>{
+    imgLoaded ? document.body.style.overflowY = 'visible' : document.body.style.overflowY = 'hidden'
+  },[imgLoaded])
 
   return (
-    <div id='app' className='loader'>
-      <Intro  />
+    <div id='app' >
+      <Intro imgLoaded={imgLoaded} setImgLoaded={setImgLoaded} />
       <About />
       <Skills />
       <Projects />
       <Resume />
       <Contact />
-      {/* <button onClick={()=>window.scroll(0,introPos)}>SetScrollPos to 0</button> */}
     </div>
   );
 }
