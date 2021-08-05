@@ -5,7 +5,8 @@ body{
   /* padding: 1rem; */
   z-index: -2;
   position:relative;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   overflow-x: hidden;
   /* overflow-y: hidden; */
 }
@@ -45,7 +46,7 @@ h3{
   font-size: 2rem;
 }
 p{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   /* letter-spacing: .05em; */
   line-height: 2.5rem;
 

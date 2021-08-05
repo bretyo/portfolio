@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './Intro.css'
 const Intro =(props)=>{
     const {imgLoaded, setImgLoaded} = props

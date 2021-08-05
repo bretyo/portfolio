@@ -5,13 +5,15 @@ import './Skills.css'
 import { useEffect } from 'react';
 
 const Skills =()=>{
-    useEffect(()=>{
-        AOS.init()
-    },[])
+    // useEffect(()=>{
+    //     AOS.init({
+    //         anchorPlacement: 'top-center'
+    //     });
+    // },[])
 
     // console.log(skills)
     return(
-        <section data-aos='zoom-in' data-aos-anchor-placement="bottom-bottom" className='card container' id='skills'>
+        <section data-aos='zoom-in'  className='card container' id='skills'>
             <h2>SKILLS</h2>
             <div id='skills-container'>
                 {skills.split(', ').map(e=>{
