@@ -25,7 +25,7 @@
     /* background-color: rgba(0, 0, 0, 0.61); */
 }
 .project a:hover{
-    color: white;
+    color: rgb(70, 181, 233);
     cursor: pointer;
 }
 .project a:active{
@@ -64,7 +64,7 @@ background-color: none;
 
 .project p{
     margin-bottom: .5rem;
-    width: 70%;
+    width: 85%;
 }
 
 .project > img{
