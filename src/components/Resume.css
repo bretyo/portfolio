@@ -19,3 +19,21 @@ iframe{
     /* width: 70%; */
     max-width: 95vw;
 }
+
+#resume-link{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+#resume-link h2{
+    padding-bottom: 0;
+}
+#resume-link:hover{
+    color: rgb(70, 181, 233);
+    cursor: pointer;
+}
+#resume-link aside{
+    padding-bottom: 1rem;
+}
