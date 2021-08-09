@@ -15,6 +15,7 @@ const Skills =()=>{
     return(
         <section data-aos='zoom-in'  className='card container' id='skills'>
             <h2>SKILLS</h2>
+            <p>I am trained in the PERN (PostgreSQL, Express, React, NodeJS) stack.</p>
             <div id='skills-container'>
                 {skills.split(', ').map(e=>{
                     // console.log(e)

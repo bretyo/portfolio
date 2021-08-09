@@ -81,3 +81,8 @@ background-color: none;
         font-size: 2rem;
     }
 }
+
+#bbox-disclaimer{
+    font-weight: 700;
+    font-size: 1.25rem;
+}
