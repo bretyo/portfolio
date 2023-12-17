@@ -11,7 +11,7 @@ body{
   /* overflow-y: hidden; */
 }
 section:nth-of-type(2n){
-  background: rgb(220,255,255);
+  background: rgb(154, 238, 253);
 }
 section:nth-of-type(2n+1){
   background-color: rgb(172, 255, 255);
@@ -22,7 +22,7 @@ button{
 }
 
 .pic-filter{
-  position:absolute;
+  position:fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.322);
